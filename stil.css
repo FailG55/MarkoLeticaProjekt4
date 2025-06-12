@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: MarkoLetica;
+	src: url(multimedija_i_ostalo/markoletica.ttf);
+}
+@font-face {
+	font-family: Berlin;
+	src: url("Multimedija_i_ostalo/Berlin.TTF");
+}
+@font-face {
+	font-family: Segoe;
+	src: url("Multimedija_i_ostalo/Segoe.ttf");
+}
+@font-face {
+	font-family: SkinnySegoe;
+	src: url("Multimedija_i_ostalo/SkinnySegoe.ttf");
+}
+
+#Marko {
+	font-family: MarkoLetica;
+	font-size: 50px;
+}
+
+#HomepageBody {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#VideoZadatakLink {
+	display:block;
+	align-content: center;
+	margin-left: 415px;
+	margin-right: 415px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#PrvaNavigacija {
+	display:block;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.opisi {
+	font-family: SkinnySegoe;
+	font-size: 20px;
+	margin-left: 440px;
+	margin-right: 440px;
+	margin-top: -30px;
+}
+
+.opisiomeni {
+	font-family: SkinnySegoe;
+	font-size: 20px;
+	margin-left: 440px;
+	margin-right: 440px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
+
+.lista{
+	color: ghostwhite;
+	font-family: SkinnySegoe;
+	font-size: 25px;
+	line-height: 30px;
+	margin: 20px;
+	text-align:center;
+	border-radius: 20px;
+	margin-left: 415px;
+	margin-right: 415px;
+	padding: 20px 40px 20px 40px;
+	border: 3px outset;
+	background-color: rgba(68,36,175,0.85);
+	border-color: rgba(68,36,175,0.75);
+}
+
+body {
+	background-image:url("Slike/Pozadina1.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* PARAGRAFI, LISTE I NAVIGACIJE */
+
+nav {
+	color: ghostwhite;
+	font-size: 45px;
+	line-height: 45px;
+	text-align:center;
+	padding: 20px;
+}
+p{
+	color: ghostwhite;
+	font-family: SkinnySegoe;
+	font-size: 25px;
+	line-height: 30px;
+	margin: 20px;
+	text-align:center;
+	border-radius: 20px;
+	margin-left: 415px;
+	margin-right: 415px;
+	padding: 20px 40px 20px 40px;
+	border: 3px outset;
+	background-color: rgba(68,36,175,0.85);
+	border-color: rgba(68,36,175,0.75);
+}
+
+/* NASLOVI */
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h1, h2, h3 {
+	font-family: Berlin;
+	color: ghostwhite;
+	background-color: antiquewhite;
+	background-color:  rgba(26,39,134,0.90);
+	text-align:center;
+	border-radius: 20px;
+	margin-left: 415px;
+	margin-right: 415px;
+	padding: 20px;
+	border: 3px outset;
+	border-color: rgba(35,51,157,0.80);
+}
+
+/* LINKOVI */
+
+a{
+	color: ghostwhite;
+	font-size:40px;
+	font-family: Berlin;
+	border: 3px outset;
+	background-color: rgba(68,36,175,0.9);
+	border-color: rgba(68,36,175,0.9);
+	line-height: 50px;
+	text-decoration: none;
+	padding:10px 20px 10px 20px;
+	margin: 40px;
+	border-radius: 20px;
+	text-align:center;
+}
+
+a:hover {
+	border-color: rgba(38,13,121,0.9);
+	background-color: rgba(54,26,147,0.75);
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+/* MULTIMEDIJA */
+
+video,audio,iframe {
+	margin: 50px auto;
+	display: flex;
+  	justify-content: center;
+	border: 5px outset;
+	border-color: rgba(2,6,29,0.80);
+	border-radius: 25px;
+}
+img{
+	margin: 50px auto;
+	display: flex;
+  	justify-content: center;
+	border: 5px outset;
+	border-color: rgba(108,121,215,0.50);
+	border-radius: 25px;
+}
